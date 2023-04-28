@@ -28,7 +28,7 @@ function App() {
     setTasks(response2.data);
   }
   useEffect(()=>{
-    fetchTasks();
+    fetchTasks();    //ilk render da çalışır
   },[]);            //Bu örnekte, fetchTasks() fonksiyonu sadece bileşen oluşturulduğunda bir kez çalıştırılır ve daha sonra bağımlılıkları değişse bile çalıştırılmaz. 
 
 
