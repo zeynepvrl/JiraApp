@@ -29,7 +29,7 @@ function App() {
   }
   useEffect(()=>{
     fetchTasks();
-  },[]);
+  },[]);            //Bu örnekte, fetchTasks() fonksiyonu sadece bileşen oluşturulduğunda bir kez çalıştırılır ve daha sonra bağımlılıkları değişse bile çalıştırılmaz. 
 
 
 
